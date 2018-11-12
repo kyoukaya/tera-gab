@@ -10,5 +10,11 @@
     "module.json": "d04ec54aaedf62f70164b5ff4f12353c3bd029a8473a5e5418f47114147ccae1",
     "readme.md": "51dbf85e462f9d747de6f26d08cab8b452de68619a8ad972cecfa1ee31dd3c1a",
     "src/utils.js": "592ae0c7dcd1ea2a2fc0c4e4c4bc8b51c993904b166ee4a076c233f58f0c5efb"
+  },
+  "defs": {
+    "S_CHAT": 2,
+    "S_WHISPER": 2,
+    "S_PRIVATE_CHAT": 1,
+    "C_CHAT": 1
   }
 }
