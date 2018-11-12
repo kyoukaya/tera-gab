@@ -1,0 +1,14 @@
+{
+  "files": {
+    "data/censored_words.json": "a2936482c1f5107fa960d21226df2ee836c49b1e5953bdec1e50b793b2b4b221",
+    "data/config.json": {
+      "overwrite": false,
+      "hash": "327678c9c4b04c69b2f0012afbcbb51f23f2ef80cefdb4360bdf95f3ea3b9750"
+    },
+    "data/defs.json": "e96f5ca166588f75b36b1d53efecc15c1cf1685bdddac48ab5ef3186f0eb516a",
+    "index.js": "ce94ab9c282b6e971a5072d40afa63d07046504fd9cc4858bc0bbf44d35ea637",
+    "module.json": "d04ec54aaedf62f70164b5ff4f12353c3bd029a8473a5e5418f47114147ccae1",
+    "readme.md": "51dbf85e462f9d747de6f26d08cab8b452de68619a8ad972cecfa1ee31dd3c1a",
+    "src/utils.js": "592ae0c7dcd1ea2a2fc0c4e4c4bc8b51c993904b166ee4a076c233f58f0c5efb"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "disableAutoUpdate": false,
+    "servers": ["https://raw.githubusercontent.com/kyoukaya/tera-gab/master/"],
+    "supportUrl": "https://github.com/kyoukaya/tera-gab/issues",
+    "options": {
+        "niceName": "gab"
+    }
+}

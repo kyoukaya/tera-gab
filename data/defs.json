@@ -1,0 +1,22 @@
+{
+    "IN_BOUND" : {
+        "S_CHAT": {
+            "ver": 2,
+            "order": 10
+        },
+        "S_WHISPER": {
+            "ver": 2,
+            "order": 10
+        },
+        "S_PRIVATE_CHAT": {
+            "ver": 1,
+            "order": 10
+        }
+    },
+    "OUT_BOUND" : {
+        "C_CHAT": {
+            "ver": 1,
+            "order": 10
+        }
+    }
+}
