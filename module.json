@@ -4,5 +4,7 @@
     "supportUrl": "https://github.com/kyoukaya/tera-gab/issues",
     "options": {
         "niceName": "gab"
-    }
+    },
+    "name": "tera-gab",
+    "description": "Bypass chat filters in TERA SEA/TH"
 }

@@ -1,4 +1,4 @@
 {
     "defaultEnabled": true,
-    "outgoingEnabled": false
+    "outgoingEnabled": true
 }

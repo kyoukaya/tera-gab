@@ -1,9 +1,5 @@
 'use strict'
 
-/* Someone is going to find out how to workaround clientside censorship and
- * completely obsolete this mod.
- */
-
 const util = require('./src/utils')
 const config = util.config
 
@@ -11,6 +7,7 @@ class TeraGab {
     constructor(mod) {
         this.mod = mod
         this.enabled = false
+        this.inComing = false
         this.outGoing = config['outgoingEnabled']
         this.hooks = []
 
@@ -43,8 +40,8 @@ class TeraGab {
             let wordLen = word.length
 
             // Insert whitespace character pattern between each char of each word
-            for (let i in word) {
-                processed += word[i]
+            for (let c of word) {
+                processed += c
                 processed += whitespaceFlag
             }
             // Remove extraneous whitespaceFlag
@@ -82,22 +79,25 @@ class TeraGab {
     enable() {
         if (this.enabled) {
             this.mod.command.message("Already activated.")
+            return
         }
 
-        for (let def in util.defs['IN_BOUND']) {
-            let ver = util.defs['IN_BOUND'][def]['ver']
-            let order = util.defs['IN_BOUND'][def]['order']
+        if (this.inComing) {
+            for (let def in util.defs['IN_BOUND']) {
+                let ver = util.defs['IN_BOUND'][def]['ver']
+                let order = util.defs['IN_BOUND'][def]['order']
 
-            this.hooks.push(
-                this.mod.hook(
-                    def, ver, {
-                        order: order
-                    },
-                    this.decensor.bind(this, def, ver)
+                this.hooks.push(
+                    this.mod.hook(
+                        def, ver, {
+                            order: order
+                        },
+                        this.decensor.bind(this, def, ver)
+                    )
                 )
-            )
+            }
+            this.mod.command.message("Incoming chat decensor activated.")
         }
-        this.mod.command.message("Incoming chat decensor activated.")
 
         if (this.outGoing) {
             for (let def in util.defs['OUT_BOUND']) {
