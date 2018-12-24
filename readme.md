@@ -1,11 +1,8 @@
 # tera-gab
 Maybe playwith will fix their overzealous censorship right? Haha.
 
-## Config
-Doesn't modify outgoing packets by default, only decensoring inbound packets,
-i.e. other people will not be able to see your words uncensored, but you will
-see everyone's works as uncensored. You can change this behaviour by modifying
-the ```"outgoingEnabled": false``` line in ```config.json```. You'll need to disable auto-updates though.
+## Client-side Chat Decensor
+Unzip `client_mod/DownloadedResources.zip` and replace the exiting `DownloadedResources.dat` file in `TERA\TERA-CLIENT\S1Game\S1Data`. You may wish to make a backup of the original, but if you want a fresh copy of the original file you can just delete it and the launcher will download a new one.
 
 ## Usage
-Automically on by default. Or you can activate it manually with ```/8 gab on```
+Automically on by default. Or you can activate it manually with ```/8 gab on```. Only decensors words in the filter list found in `data\censored_words.json`

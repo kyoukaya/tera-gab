@@ -7,12 +7,12 @@
     },
     "files": {
         "client_mod/DownloadedResources.zip": "620e320a54345b925df7a2ef556f12e4fe9b83c85c15cc42b70a0f29498df003",
-        "data/censored_words.json": "243007253100e892020b0a99b71776b87d305154a4b15659983d1a347117604d",
-        "data/config.json": "3e445ea8621b29bf5a36a483a58a3520a41ceac2bf49335ec336347b22a208ff",
-        "data/defs.json": "e96f5ca166588f75b36b1d53efecc15c1cf1685bdddac48ab5ef3186f0eb516a",
-        "index.js": "cd0604d92214cf0b7a96db20291cfa525aa2bb9ae0291221f9fd8db8fa3f21e5",
+        "data/censored_words.json": "dfcc0becdaebdce59a105297c85de8851f72f06e7a9d2a0535b51d6e5c48016c",
+        "data/config.json": "bb5fab44b58dd055459d69b5a35679e4fd9ba69e70f8f83b77ef372f3c8b14b3",
+        "data/defs.json": "d6998ea0737b7d283c7bb2bc8615703fdc51bfa2f5bdb184874ab3ab642bb15b",
+        "index.js": "730df79376ad2bb5dae257ddf67f63442462979ac07dcd6ba1ef6fc668717c6d",
         "module.json": "f6008a0063cfaf1e6054676e2e183038e38a82b9acf55a27aece87b754dc8e43",
-        "readme.md": "2f5d5dfbf5689bea9b6eac431df6ad9c61d6a2931f03474cf99238013cb67174",
-        "src/utils.js": "592ae0c7dcd1ea2a2fc0c4e4c4bc8b51c993904b166ee4a076c233f58f0c5efb"
+        "readme.md": "09848597dbf2ca351bbb315f7a1e4ffeabc965a35f358484058ee4b65e1b09a9",
+        "src/utils.js": "b45f14e8e1653fd814b1ea8a9d433b759906d80594ee506ea8efb49726ac6347"
     }
 }
