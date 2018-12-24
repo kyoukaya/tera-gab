@@ -10,10 +10,9 @@
         "data/censored_words.json": "243007253100e892020b0a99b71776b87d305154a4b15659983d1a347117604d",
         "data/config.json": "3e445ea8621b29bf5a36a483a58a3520a41ceac2bf49335ec336347b22a208ff",
         "data/defs.json": "e96f5ca166588f75b36b1d53efecc15c1cf1685bdddac48ab5ef3186f0eb516a",
-        "index.js": "eabd22621fa7ee6fccb82338e7df1fd21c56498b489e1aad1193f4f45acf8d00",
-        "manifest - Copyjson": "8f435fc792c083ec6927d9c6498eed200f7e050f2669122e95af12a132a1d841",
+        "index.js": "cd0604d92214cf0b7a96db20291cfa525aa2bb9ae0291221f9fd8db8fa3f21e5",
         "module.json": "f6008a0063cfaf1e6054676e2e183038e38a82b9acf55a27aece87b754dc8e43",
-        "readme.md": "51dbf85e462f9d747de6f26d08cab8b452de68619a8ad972cecfa1ee31dd3c1a",
+        "readme.md": "2f5d5dfbf5689bea9b6eac431df6ad9c61d6a2931f03474cf99238013cb67174",
         "src/utils.js": "592ae0c7dcd1ea2a2fc0c4e4c4bc8b51c993904b166ee4a076c233f58f0c5efb"
     }
 }
